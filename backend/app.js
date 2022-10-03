@@ -13,4 +13,4 @@ mongoose.connect('mongodb://db/mydb')
 // Teste
 server.get('/', (req, res, next)=>res.send('Backend'))
 
-server.listen(3003)
+server.listen(3000)
